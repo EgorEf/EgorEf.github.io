@@ -1,3 +1,3 @@
 var ghpages = require('gh-pages');
 
-ghpages.publish( 'dist', () => { console.log('Deploy Complete!') } )
+ghpages.publish('dist', (err) => { (err && console.log(err)) || console.log('Deploy Complete!') } );
