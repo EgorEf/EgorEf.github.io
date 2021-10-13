@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="root-container">
+      <aside>
+        <header>
+          <div class="logo-container"></div>
+          <span class="header-text toggle-block">ЛОГОТИП</span>
+        </header>
+        <div class="navbar-main-content">
+          <div class="current-user-container">
+            <div class="logo-container">
+              <img src="./images/userAvatar10.png" >
+            </div>
+            <div class="user-info-container toggle-block">
+              <span class="user-post-text">Администратор</span>
+              <span>Иванова И.И.</span>
+            </div>
+          </div>
+          <nav>
+            <button class="dropdown-btn"></button>
+            <ul class="nav-item-list">
+              <a class="nav-control nav-item">
+                <label class="icon icon-theater"></label>
+                <span class="nav-control-text">Театры<span>
+              </a>
+              <a class="nav-control nav-item active">
+                <label class="icon icon-stamp"></label>
+                <span class="nav-control-text">Штампы</span>
+              </a>
+              <a class="nav-control nav-item">
+                <label class="icon icon-umbrella"></label>
+                <span class="nav-control-text">Зонты</span>
+              </a>
+            </ul>
+          </nav>
+        </div>
+        <footer class="nav-control">
+          <label class="icon icon-arrow"></label>
+          <span class="nav-control-text">Свернуть</span>
+        </footer>
+      </aside>
+      <main>
+        <header>
+          Доброе утро, Ирина!
+        </header>
+        <div class="main-content-container">
+          <div class="size-box">
+            <input class="field text-field large-size" id="name-input" placeholder="Название">
+            <input class="field text-field small-size" id="author-input" placeholder="Автор">
+            <button class="field date-field small-size" id="date-input" type="button">
+              <span class="date-header">Дата</span>
+              <span class="date">11 августа 2021</span>
+            </button>
+          </div>
+          <div class="stamps-container">
+            <div class="stamps-headers size-box">
+              <div class="header-item large-size">
+                Название штампа
+                <span class="stamps-header-arrow"></span>
+              </div>
+              <div class="header-item small-size">
+                Автор
+                <span class="stamps-header-arrow"></span>
+              </div>
+              <div class="header-item small-size">
+                Дата
+                <span class="stamps-header-arrow"></span>
+              </div>
+            </div>
+            <div class="stamps-list-container">
+              <section class="stamp-item size-box">
+                <div class="main-content-block large-size">
+                  <div class="custom-checkbox-container">
+                    <input class="custom-checkbox" type="checkbox" id="1">
+                    <label for="1"></label>
+                  </div>
+                  <p class="text-content">
+                    Площадь нефтяного пятна в районе Новороссийска, достига 80 кв.км., выяснили ученые института космических исследований (ИКИ) РАН. 
+                  </p>
+                </div>
+                <div class="author-block small-size">
+                  <span class="upper-text">Иванова И.И.</span>
+                  <span class="bottom-text">Администратор</span>
+                </div>
+                <div class="date-info-block small-size">
+                  <span class="upper-text">11 августа 2021</span>
+                  <span class="bottom-text">17:34:44</span>
+                </div>
+              </section>
+            </div>
+          </div>
+          <footer class="pagination-container">
+            
+          </footer>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
